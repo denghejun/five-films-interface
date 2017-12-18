@@ -1,6 +1,6 @@
 {
   "name": "@colorfulwindmill/five-films-interface",
-  "version": "1.0.4",
+  "version": "1.0.9",
   "description": "",
   "author": "colorfulwindmill",
   "license": "ISC",
@@ -12,15 +12,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "react-redux": "^5.0.6",
-    "redux": "^3.7.2"
-  },
-  "peerDependencies": {
-    "redux": "*",
-    "react-redux": "*"
-  },
+  "dependencies": {},
+  "peerDependencies": {},
   "devDependencies": {
-    "@types/react-redux": "^5.0.14"
+    "typescript": "^2.6.2"
   }
 }

@@ -1,3 +1,5 @@
 export * from './Movie'
 export * from './Location'
 export * from './Browser'
+export * from './Views'
+export * from './Containers'
