@@ -1,6 +1,7 @@
 export interface MovieRecommendRequest {
   dtType?: string;
   city: string;
+  mock?: boolean;
 }
 
 export interface MovieRecommendResponse {

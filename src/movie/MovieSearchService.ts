@@ -1,5 +1,6 @@
 export interface MovieSearchRequest {
   q: string;
+  mock?: boolean;
 }
 
 export interface MovieSearchResponse {
