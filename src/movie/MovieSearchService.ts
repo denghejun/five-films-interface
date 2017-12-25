@@ -1,6 +1,7 @@
-export interface MovieSearchRequest {
+import { CacheRequest, MockRequest } from '../common'
+
+export interface MovieSearchRequest extends MockRequest, CacheRequest {
   q: string;
-  mock?: boolean;
 }
 
 export interface MovieSearchResponse {

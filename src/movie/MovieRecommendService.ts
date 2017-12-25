@@ -1,7 +1,8 @@
-export interface MovieRecommendRequest {
+import { CacheRequest, MockRequest } from '../common'
+
+export interface MovieRecommendRequest extends MockRequest, CacheRequest {
   dtType?: string;
   city: string;
-  mock?: boolean;
 }
 
 export interface MovieRecommendResponse {
