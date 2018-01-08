@@ -1,9 +1,11 @@
 export const TYPE_REDUCER = {
   APP: Symbol('APP'),
   HOME: Symbol('HOME'),
-  MOVIE_COMING: Symbol('MOVIE_COMING'),
-  MOVIE_SHOWING: Symbol('MOVIE_SHOWING'),
-  MOVIE_SEARCH: Symbol('MOVIE_SEARCH'),
+  MOVIE: {
+    COMING: Symbol('COMING'),
+    SHOWING: Symbol('SHOWING'),
+    SEARCH: Symbol('SEARCH')
+  },
   USER: Symbol('USER'),
-  DRAWER_CONTENT: Symbol('DRAWER_CONTENT')
+  DRAWER: Symbol('DRAWER')
 }

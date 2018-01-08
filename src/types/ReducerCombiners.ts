@@ -3,5 +3,5 @@ export const TYPE_REDUCER_COMBINER = {
   HOME: Symbol('HOME'),
   MOVIE: Symbol('MOVIE'),
   USER: Symbol('USER'),
-  DRAWER_CONTENT: Symbol('DRAWER_CONTENT')
+  DRAWER: Symbol('DRAWER')
 }
