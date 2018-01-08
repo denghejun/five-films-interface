@@ -1,9 +1,7 @@
 export const TYPE_VIEW = {
   APP: Symbol('APP'),
   HOME: Symbol('HOME'),
-  MOVIE_COMING: Symbol('MOVIE_COMING'),
-  MOVIE_SHOWING: Symbol('MOVIE_SHOWING'),
-  MOVIE_SEARCH: Symbol('MOVIE_SEARCH'),
-  USER_DETAIL: Symbol('USER_DETAIL'),
-  DRAWER_CONTENT: Symbol('DRAWER_CONTENT')
+  MOVIE: Symbol('MOVIE'),
+  USER: Symbol('USER'),
+  DRAWER: Symbol('DRAWER')
 }
